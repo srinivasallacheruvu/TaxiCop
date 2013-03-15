@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- 	EULA -->
+	<string name="eula_title">License Agreement</string>
+	<string name="eula_accept">Accept</string>
+	<string name="eula_refuse">Dont Accept</string>
+
+	<!-- Label for this package -->
+	<string name="label">TaxiCop</string>
+	<!-- Descripcion -->
+	<string name="out_placa">Placa:</string>
+	<string name="out_description">Descripcion:</string>
+	<!-- Messages -->
+	<string name="confirm_message">Gracias por tu amable aporte ;)</string>
+	<string name="error_message">Esta placa no ha sido reportada, ayudanos.</string>
+	<string name="error_message_length">Longitud Invalida</string>
+	<string name="error_message_characters">Caracteres Invalido</string>
+	<string name="error_message_rating">Rating Invalido</string>
+	<!-- Main Tabs -->
+	<string name="tab_request">Consulta</string>
+	<string name="tab_insert">Denuncia</string>
+	<string name="tab_sync">Actualizar</string>
+	<!-- Sync Layaout -->
+	<string name="sync">Sincronizacion de Placas</string>
+	<string name="sync_error">PorFavor activar la sincronizacion</string>
+	<!-- Request Layaout -->
+	<string name="help_carplate">Introduzca la placa</string>
+	<string name="request_button">Consultar</string>
+	<string name="back_button">Regresar</string>
+	<!-- Submmit Layaout -->
+	<string name="help_report">Reportar placa</string>
+	<string name="Description">Descripcion (opcional)</string>
+	<string name="submmit_button">Enviar</string>
+
+	<!-- Permission label -->
+	<string name="permlab_TaxicopAuthPassword">Type password for Taxicop account</string>
+	<!-- Permission description -->
+	<string name="permdesc_TaxicopAuthPassword">Allows applications direct access to the passwords for the Taxicop account(s) you have configured.</string>
+
+	<!-- Permission label -->
+	<string name="permlab_TaxicopAuth">View configured accounts</string>
+	<!-- Permission description -->
+	<string name="permdesc_TaxicopAuth">Allows applications to see the usernames (email addresses) of the Taxicop account(s) you have configured.</string>
+	<string name="notification_login_error">Touch to sign into your Taxicop account.</string>
+
+	<!-- Title string for Login activity -->
+	<string name="ui_activity_title">Sign-in</string>
+	<!-- Message shown in progress dialog while app connects to the server -->
+	<string name="ui_activity_authenticating">Authenticating\u2026</string>
+
+	<!-- AuthenticatorActivity -->
+	<string name="prompt_label">Escoja un País</string>
+	<!-- Label above username EditText -->
+	<string name="login_activity_username_label">Username</string>
+	<!-- Label above password EditText -->
+	<string name="login_activity_password_label">Password</string>
+	<!-- Button to sign in after entering username and password -->
+	<string name="login_activity_ok_button">Sign in</string>
+
+	<!-- Message shown in dialog if the username or password is invalid. -->
+	<string name="login_activity_loginfail_text_both">The username or password isn\'t valid. A 
+		Taxicop account is
+		required. Please try again. </string>
+	<!-- Message shown in dialog if the password is invalid -->
+	<string name="login_activity_loginfail_text_pwonly">You entered the wrong password or your account has
+		changed.
+		Please re-enter your password.</string>
+	<!-- Message shown in dialog to prompt the user for their password -->
+	<string name="login_activity_loginfail_text_pwmissing">Type the password for this account.</string>
+	<!-- Message shown if the provided account doesn't support the current activity. -->
+	<string name="login_activity_newaccount_text">Crea tu cuenta o ingresa a Taxicop. Usa un correo como nombre de usuario.</string>
+
+	<!-- Button that takes the user to the "sign in" screen -->
+	<string name="sign_in_button_label">Sign in</string>
+	<!-- Button for going to the previous screen or step -->
+	<string name="back_button_label">Back</string>
+	<!-- Button to cancel the current operation -->
+	<string name="cancel_button_label">Cancel</string>
+	<string name="view_profile">View Profile</string>
+	<string name="app_name">TaxiCop</string>
+</resources>
